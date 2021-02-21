@@ -1,4 +1,4 @@
-# TransferLearning using pytorch
+# TransferLearning using PyTorch
 
 I have trained model using transfer Learning using mobilenet archetecture.
 
