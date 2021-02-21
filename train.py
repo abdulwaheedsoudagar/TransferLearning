@@ -4,12 +4,10 @@ import torch.optim as optim
 from torch.utils.data import Dataset, DataLoader
 import torchvision.transforms as transforms
 import torchvision
-
 import matplotlib.pyplot as plt
 import pandas as pd
 from sklearn import preprocessing
 import os
-
 from datasetload import Cardataset
 
 device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
